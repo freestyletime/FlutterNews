@@ -1,0 +1,17 @@
+[
+    {
+        "channel_name": "头条",
+        "channel_type": "headline",
+        "channel_id": "T1348647909107"
+    },
+    {
+        "channel_name": "财经",
+        "channel_type": "list",
+        "channel_id": "T1348648756099"
+    },
+    {
+        "channel_name": "体育",
+        "channel_type": "list",
+        "channel_id": "T1348649079062"
+    }
+]
