@@ -26,7 +26,7 @@
 ## 参考项目&特别感谢
 * [yubo725的项目](https://github.com/yubo725/flutter-osc)
 
-* [oubowu](https://github.com/oubowu/OuNews)
+* [oubowu的项目](https://github.com/oubowu/OuNews)
 
 # LICENSE
 The MIT License (MIT)
