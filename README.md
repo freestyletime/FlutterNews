@@ -9,7 +9,6 @@
 - 新闻列表页
 - 新闻详情页（无链接时提示且不进入，之后会修改）
 - 切换日间及夜间主题模式
-- 关于页
 
 ## 截图
 <div>
@@ -18,10 +17,31 @@
     <img src='./screenshots/3.png' width=280>
 </div>
 
-
 ## 技术栈
 * event_bus
 * flutter_webview_plugin
+
+## 下载地址
+<img src='./screenshots/QRcode.png'>
+
+## 运行项目
+
+获取更多Flutter的信息，请查阅在线[文档](https://flutter.io/)
+
+#### 1. [配置Flutter运行环境](https://flutter.io/setup/)
+
+#### 2. 克隆项目
+
+```sh
+$ git clone https://github.com/freestyletime/FlutterNews.git
+$ cd FlutterNews/
+```
+
+#### 4. 运行APP
+
+```sh
+$ flutter run
+```
 
 ## 参考项目&特别感谢
 * [yubo725的项目](https://github.com/yubo725/flutter-osc)
