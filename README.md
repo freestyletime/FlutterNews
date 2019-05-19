@@ -37,7 +37,7 @@ $ git clone https://github.com/freestyletime/FlutterNews.git
 $ cd FlutterNews/
 ```
 
-#### 4. 运行APP
+#### 3. 运行APP
 
 ```sh
 $ flutter run
