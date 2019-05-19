@@ -1,4 +1,4 @@
-# FlutterNews
+# FlutterNews [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/freestyletime/FlutterNews/blob/master/LICENSE) [![Release Version](https://img.shields.io/badge/release-0.0.1-brightgreen.svg)](https://github.com/freestyletime/FlutterNews/tree/master/apk)
 
 * flutter写的新闻类小项目
 * 纯属兴趣使然
