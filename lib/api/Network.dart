@@ -2,6 +2,7 @@ import 'package:flutter_news/constants/Constants.dart';
 import 'package:http/http.dart' as http;
 
 class NetWork {
+  static bool _debug = true;
   //网易新闻的host
   static String NETEAST_HOST = "https://c.m.163.com/";
 
@@ -36,23 +37,28 @@ class NetWork {
       url += paramStr;
     }
     http.Response res = await http.get(url, headers: getCommonHeader());
-    print('_____________________');
-    print('|发起Get请求|');
-    print('|请求URL：$url|');
-    print('|返回数据：${res.body}|');
-    print('|_____________________|');
+    if (_debug) {
+      print('_____________________');
+      print('|发起Get请求|');
+      print('|请求URL：$url|');
+      print('|返回数据：${res.body}|');
+      print('|_____________________|');
+    }
     return res.body;
   }
 
 /* 基础POST请求 */
   static Future<String> post(String url, {Map<String, String> params}) async {
-    http.Response res = await http.post(url, body: params, headers: getCommonHeader());
-    print('_____________________');
-    print('|发起Post请求|');
-    print('|请求URL：$url|');
-    print('|请求数据：${params.toString()}|');
-    print('|返回数据：${res.body}|');
-    print('|_____________________|');
+    http.Response res =
+        await http.post(url, body: params, headers: getCommonHeader());
+    if (_debug) {
+      print('_____________________');
+      print('|发起Post请求|');
+      print('|请求URL：$url|');
+      print('|请求数据：${params.toString()}|');
+      print('|返回数据：${res.body}|');
+      print('|_____________________|');
+    }
     return res.body;
   }
 
